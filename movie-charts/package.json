@@ -1,0 +1,20 @@
+{
+  "name": "movie-charts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:css": "tailwindcss -i ./style.css -o ./output.css",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "daisyui": "^4.11.1",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.3",
+    "tailwindcss": "^3.4.3"
+  }
+}
