@@ -1,4 +1,4 @@
-import sampleMovies from "../movie-data.json";
+import sampleMovies from "../../movie-data.json";
 import { Chart } from 'chart.js/auto';
 
 export const createCard = (movie) => {
