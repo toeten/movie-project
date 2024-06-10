@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/movie-project/',
   build: {
-    outDir: 'dist' // Ensure 'dist' is outside your source directory
+    outDir: 'dist'
   }
 });
